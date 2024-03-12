@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>预约时间&预约数管理</title>
+  <link rel="stylesheet" type="text/css" href="../easyui/themes/default/easyui.css">
+  <link rel="stylesheet" type="text/css" href="../easyui/themes/icon.css">
+  <script type="text/javascript" src="../easyui/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../easyui/js/jquery.easyui.min.js"></script>
+  <style>
+    .form-item{
+      float: left;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <form id="ff" method="post">
+      <div class="form-item">
+        <label for="appointmentNums">每日可预约人数:</label>
+        <input class="easyui-validatebox" type="text" id="appointmentNums" name="appointmentNums">
+      </div>
+      <div class="form-item">
+        <label for="email">Email:</label>
+        <input class="easyui-validatebox" type="text" id="email" name="email">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
